@@ -42,5 +42,6 @@ for image in image_list:
     try:
         for l in dc.images.push(dest, stream=True):
             print l,
+        print(80 * "#"  )
     except docker.errors.APIError as e:
         print(e)

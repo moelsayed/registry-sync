@@ -1,3 +1,21 @@
 images:
-  - src: gcr.io/google_containers/pause-amd64:3.0
-    dest: melsayed/pause-amd64:3.0
+  - src: gcr.io/google_containers/pause-amd64:3.1
+    dest: melsayed/pause-amd64:3.1
+
+  - src: gcr.io/kubernetes-helm/tiller:v2.8.2
+    dest: melsayed/tiller:v2.8.2
+
+  - src: quay.io/coreos/etcd:v3.1.12
+    dest: melsayed/coreos-etcd:v3.1.12
+
+  - src: gcr.io/google_containers/k8s-dns-kube-dns-amd64:1.14.8
+    dest: melsayed/k8s-dns-kube-dns-amd64:1.14.8
+
+  - src: gcr.io/google_containers/k8s-dns-dnsmasq-nanny-amd64:1.14.8
+    dest: melsayed/k8s-dns-dnsmasq-nanny-amd64:1.14.8
+
+  - src: gcr.io/google_containers/k8s-dns-sidecar-amd64:1.14.8
+    dest: melsayed/k8s-dns-sidecar-amd64:1.14.8
+
+  - src: gcr.io/google_containers/kubernetes-dashboard-amd64:v1.8.3
+    dest: melsayed/kubernetes-dashboard-amd64:v1.8.3

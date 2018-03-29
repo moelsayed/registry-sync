@@ -1,0 +1,3 @@
+images:
+  - src: gcr.io/google_containers/pause-amd64:3.0
+    dest: melsayed/pause-amd64:3.0
